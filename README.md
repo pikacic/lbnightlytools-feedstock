@@ -5,11 +5,9 @@ Home: https://gitlab.cern.ch/lhcb-core/LbNightlyTools
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lbnightlytools-feedstock/blob/master/LICENSE.txt)
 
 Summary: LHCb Nightly tools
-
-
 
 Current build status
 ====================
