@@ -75,6 +75,8 @@ requirements:
     - python
     - python-gitlab
     - tabulate
+    - joblib
+    - xrootd
 
 test:
   imports:
