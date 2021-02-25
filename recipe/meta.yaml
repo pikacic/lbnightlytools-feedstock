@@ -1,5 +1,5 @@
 {% set name = "lbnightlytools" %}
-{% set version = "3.0.25" %}
+{% set version = "3.0.26" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/LbNightlyTools-{{ version }}.tar.gz
-  sha256: a3527272701b09b43c21166c9fcf5ec368b84b8aee4feed801377ff02ee79860
+  sha256: 244096e3859d4fa68de9cdaa664e4a24b94112afa10185d586b23d15d95b73dd
 
 build:
   number: 0
@@ -60,22 +60,23 @@ requirements:
   host:
     - nose >=1.0
     - pip
-    - python
+    - python =2.7|>=3.6
     - setuptools_scm
   run:
     - python-couchdb
     - gitdb2
     - gitpython
+    - joblib
     - lbcommon >=0.0.7
     - lbdevtools
     - lbenv
     - lbsoftconfdb2clients
     - networkx
-    - pika >=1.0.0
-    - python
+    - pika ==1.1.0
+    - python =2.7|>=3.6
     - python-gitlab
+    - pyyaml
     - tabulate
-    - joblib
     - xrootd
 
 test:
