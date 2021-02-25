@@ -60,7 +60,7 @@ requirements:
   host:
     - nose >=1.0
     - pip
-    - python
+    - python =2.7|>=3.6
     - setuptools_scm
   run:
     - python-couchdb
@@ -73,7 +73,7 @@ requirements:
     - lbsoftconfdb2clients
     - networkx
     - pika ==1.1.0
-    - python
+    - python =2.7|>=3.6
     - python-gitlab
     - pyyaml
     - tabulate
