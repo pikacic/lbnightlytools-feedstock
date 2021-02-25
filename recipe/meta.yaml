@@ -66,16 +66,17 @@ requirements:
     - python-couchdb
     - gitdb2
     - gitpython
+    - joblib
     - lbcommon >=0.0.7
     - lbdevtools
     - lbenv
     - lbsoftconfdb2clients
     - networkx
-    - pika >=1.0.0
+    - pika ==1.1.0
     - python
     - python-gitlab
+    - pyyaml
     - tabulate
-    - joblib
     - xrootd
 
 test:
