@@ -62,6 +62,7 @@ requirements:
     - pip
     - python =2.7|>=3.6
     - setuptools_scm
+    - setuptools <58.0
   run:
     - python-couchdb
     - gitdb2
