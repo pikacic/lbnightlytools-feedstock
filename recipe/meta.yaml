@@ -65,6 +65,7 @@ requirements:
     - setuptools <58.0
   run:
     - python-couchdb
+    - decorator
     - gitdb2
     - gitpython
     - joblib
