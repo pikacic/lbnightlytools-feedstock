@@ -1,11 +1,11 @@
-About lbnightlytools
-====================
+About lbnightlytools-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lbnightlytools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.cern.ch/lhcb-core/LbNightlyTools
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lbnightlytools-feedstock/blob/main/LICENSE.txt)
 
 Summary: LHCb Nightly tools
 

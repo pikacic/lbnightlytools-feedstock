@@ -1,5 +1,5 @@
 {% set name = "lbnightlytools" %}
-{% set version = "3.0.47" %}
+{% set version = "3.0.49" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/LbNightlyTools-{{ version }}.tar.gz
-  sha256: 4dca080425c5d5d9d438b0ce3d2d53600eebb2dfc4a1c0bc1b20904509844a1f
+  sha256: f44db35de5c2748ca28775fa1e6ee37d1336d1de3b05d4d7617953247550d420
 
 build:
   number: 0
@@ -80,6 +80,7 @@ requirements:
     - pyyaml
     - tabulate
     - xrootd
+    - lbinstall
 
 test:
   imports:
