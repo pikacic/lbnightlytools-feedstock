@@ -80,6 +80,7 @@ requirements:
     - pyyaml
     - tabulate
     - xrootd
+    - lbinstall
 
 test:
   imports:
